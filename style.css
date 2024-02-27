@@ -1,0 +1,178 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family:Helvetica;
+}
+
+ul.navbar{
+    margin: 0;
+    padding: 5px;
+    display: flex;
+    border: 1px solid #dadce0;
+
+
+}
+
+.navbar li{
+    padding: 8px;
+    list-style-type: none;
+    /* justify-content: space-between; */
+}
+
+.navbar > div{
+    margin:5px;
+    display: inline-block; 
+    display: flex;
+    /* border: 1px solid #dadce0; */
+}
+
+.navbar > div li{
+    border:1px solid #dadce0;
+    border-radius: 20px ;
+    margin:3px;
+}
+
+.navbar > div li:hover{
+    background-color: #cedff8;
+}
+
+.navbar a{
+    text-decoration: none;
+    color: black;
+}
+
+.navbar a i{
+    /* border: 1px solid black; */
+    margin-right: 10px;
+    color: #1a73e8;
+    font-size: 17px;
+}
+
+.top-content h1,input[type="text"]{
+    text-align: center; 
+
+}
+
+.option{
+    display: flex;
+    justify-content: center;
+}
+
+.option > div{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    text-align: center;
+
+}
+.option > div:hover{
+    background-color:rgb(214, 214, 214);
+} 
+
+.option i{
+    font: size 25px;
+}
+
+input[type="text"]{
+    width: 25%;
+    padding: 15px;
+    font: size 16px;
+    border-radius:15px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0,0 ,20%); 
+    color: #cccccc;
+}
+
+.main-content{
+    width: 68%;
+    margin:auto;
+}
+.red-sea{
+    display: flex;
+}
+.popular{
+    
+    margin: 0;
+    padding:0;
+    margin-right: 10px;
+    /* padding-bottom: 0; */
+    width:50%;
+
+}
+
+.main-content > h2{
+    margin:0;
+
+}
+
+.main-content > p{
+    color: #cccccc;
+    font-size: 15px;
+}
+
+.popular > li{
+    list-style-type: none;
+    display: flex;
+    margin-bottom: 10px;
+    border: 1px solid #ededed; 
+    border-radius:13px;
+    width:100%
+}
+
+.popular li > div{
+    margin:0;
+    width:60%;
+
+}
+
+.popular > li:hover{
+    box-shadow: 2px 2px 2px 1px rgba(0, 0,0 ,15%); 
+}
+
+.popular li img{
+    border-top-left-radius: 13px;
+    width: 40%;
+    /* height: 42%; */
+    padding: 0;
+    margin: 0;
+
+}
+.popular p,h3{
+    margin: 0;
+    margin-bottom: 5px;
+
+}
+.popular p{
+    font-size: 12px;
+    color: rgba(0, 0,0 /0%);  
+}
+
+
+.popular li img + div{
+    padding: 12px;
+}
+
+
+.destination-prices{
+    list-style-type: none;
+    text-align: right;
+    margin-top: 5px;
+    margin-left: 85px;
+}
+
+.destination-prices li{
+    font-size: 14px;
+    margin-bottom: 5px;
+    
+}
+
+.popular + img{
+    border-radius: 13px;
+    width: 50%;
+}
+
+
+
